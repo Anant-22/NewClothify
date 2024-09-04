@@ -72,3 +72,33 @@ body {
 .social-icon{
   margin: 2px 5px;
 }
+.product-card {
+    display: none;
+}
+
+
+
+/* css for update result card  */
+
+
+.product-card {
+    /*display: none; /* Initially hide all cards */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 10%;
+    text-align: center;
+
+}
+
+.product-card .product-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-card .product-price {
+    font-size: 18px;
+    color: #888;
+}
